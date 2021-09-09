@@ -5,7 +5,7 @@ My first attempt at implementing a blockchain using the [SHA256](https://en.wiki
 Here is a primitive diagram of the blockchain in this project:
 
 
-<img width=400px src="https://raw.githubusercontent.com/j-a-collins/JavaBlockchain/BlockChain/img/blockchain.jpg"/>
+<img width=200px src="https://raw.githubusercontent.com/j-a-collins/JavaBlockchain/BlockChain/img/blockchain.jpg"/>
 
 
 <!--# Difficulty Level:
