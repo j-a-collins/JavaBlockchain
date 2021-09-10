@@ -1,6 +1,3 @@
-import java.nio.charset.StandardCharsets;
-import java.security.MessageDigest;
-
 /*
 This class helps produce a digital fingerprint
 for the blocks. This makes use of the SHA256
@@ -10,9 +7,15 @@ and returns the result.
 J-A-Collins 09-09-2021
 */
 
+// Imports
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+
 public class StringUtil {
+    // This line divider is dumb
     public static String lineDivider = "\n=====================================" +
             "================================================";
+    
     public static String applySha256(String input) {
         try {
             MessageDigest digest = MessageDigest.getInstance("SHA-256");
@@ -30,5 +33,4 @@ public class StringUtil {
             throw new RuntimeException(e);
         }
     }
-
 }
