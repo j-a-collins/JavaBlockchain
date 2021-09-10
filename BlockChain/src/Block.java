@@ -1,12 +1,13 @@
-import javax.xml.crypto.Data;
-import java.util.Date;
-
 /*
 Programming a simple Blockchain example.
 
 J-A-Collins
 09-09-2021
 */
+
+// Imports
+import javax.xml.crypto.Data;
+import java.util.Date;
 
 public class Block {
     // Instance variables
@@ -29,8 +30,8 @@ public class Block {
         String calculatedHash = StringUtil.applySha256(
                 previousHash +
                 Long.toString(timestamp) +
-                Integer.toString(miner)+data
-                );
+                Integer.toString(miner) + data
+        );
         return calculatedHash;
     }
 
