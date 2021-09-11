@@ -2,7 +2,7 @@
 My first attempt at implementing a blockchain using the [SHA256](https://en.wikipedia.org/wiki/SHA-2) cryptographic algorithm for the fingerprint. This is mostly a proof of concept project for educational purposes - in order to better understand how a [blockchain](https://en.wikipedia.org/wiki/Blockchain) functions. Simply put: a blockchain is an increasing list of records, called ***blocks***, that are linked together using cryptography. 
 
 
-![Diagram](https://github.com/j-a-collins/JavaBlockchain/BlockChain/master/img/blockchain.jpg)
+![Diagram](/BlockChain/img/blockchain.jpg)
 <!--
 # Diagram
 Here is a primitive diagram of the blockchain in this project:
