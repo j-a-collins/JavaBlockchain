@@ -1,5 +1,6 @@
 /*
-Programming a simple Blockchain example.
+Class for the block object
+Hash calculation method sits here
 
 J-A-Collins
 09-09-2021
